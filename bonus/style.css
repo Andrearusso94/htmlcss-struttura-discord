@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container-fluid {
+    width: 100%;
+  }
+
+  header {
+    background-color: rgba(206, 203, 24, 0.813);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkgoldenrod;
+  }
+  
+
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bolder;
+  
+  }
+  
+[class^="col-"] {
+    padding: 1rem 1rem;
+  }
+  
+  
+  .col-1 {
+    width:  calc((100%/12) * 1);
+  }
+  
+  .col-10 {
+    width: calc((100% / 12) * 10);
+  }
+  
+  .col-2 {
+    width: calc((100% / 12) * 2);
+    background-color: aqua;
+    border: 2px solid;
+  }
+  .open-discord{
+    background-color: black;
+    height: 350px;
+    padding-top: 2.5rem;
+  }
+  .presentation{
+    background-color: blue;
+    height: 250px;
+    width: 50%;
+    margin: 0 auto;
+   
+  }
+  
+  .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2.5rem;
+    
+  }
+  .col-4 {
+    width:  calc((100%/12) * 4);
+    background-color: darkgoldenrod;
+    height: 300px;
+  }
+  
+  .col-8 {
+    width: calc((100% / 12) * 8);
+    height: 300px;
+    background-color: cornflowerblue;
+  }
+
+  .ultimate{
+    background-color: darkgreen;
+    width: 80%;
+    height: 800px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+  }
+
+  footer{
+    background-color: black;
+    color: antiquewhite;
+    margin-top: 2.5rem;
+}
+.end-site{
+    background-color: aqua;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    
+    justify-content: space-between;
+}
