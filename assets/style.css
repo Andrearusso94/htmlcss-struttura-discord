@@ -37,7 +37,7 @@
   }
   
 [class^="col-"] {
-    padding: 0 1rem;
+    padding: 1rem 1rem;
   }
   
   
@@ -51,6 +51,18 @@
   
   .col-4 {
     width: calc((100% / 12) * 1);
+  }
+  .open-discord{
+    background-color: black;
+    height: 350px;
+    padding-top: 2.5rem;
+  }
+  .presentation{
+    background-color: blue;
+    height: 250px;
+    width: 50%;
+    margin: 0 auto;
+   
   }
   
   
