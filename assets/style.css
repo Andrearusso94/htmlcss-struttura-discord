@@ -45,11 +45,11 @@
     width:  calc((100%/12) * 1);
   }
   
-  .col-3 {
+  .col-10 {
     width: calc((100% / 12) * 10);
   }
   
-  .col-4 {
+  .col-1 {
     width: calc((100% / 12) * 1);
   }
   .open-discord{
@@ -65,4 +65,20 @@
    
   }
   
+  .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2.5rem;
+    
+  }
+  .col-4 {
+    width:  calc((100%/12) * 4);
+    background-color: darkgoldenrod;
+    height: 300px;
+  }
   
+  .col-8 {
+    width: calc((100% / 12) * 8);
+    height: 300px;
+    background-color: cornflowerblue;
+  }
