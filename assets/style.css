@@ -49,8 +49,10 @@
     width: calc((100% / 12) * 10);
   }
   
-  .col-1 {
-    width: calc((100% / 12) * 1);
+  .col-2 {
+    width: calc((100% / 12) * 2);
+    background-color: aqua;
+    border: 2px solid;
   }
   .open-discord{
     background-color: black;
@@ -82,3 +84,18 @@
     height: 300px;
     background-color: cornflowerblue;
   }
+
+  .ultimate{
+    background-color: darkgreen;
+    width: 80%;
+    height: 800px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+  }
+
+  footer{
+    background-color: black;
+    color: antiquewhite;
+    margin-top: 2.5rem;
+}
